@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Memory Challenge 🧠</h1>
+        <p id="timer">Temps restant : 20 secondes ⏱️</p>
+        <div id="phase1">
+            <p id="instruction1">Mémorisez ces 10 objets :</p>
+            <div id="objectsGrid"></div>
+        </div>
+        <div id="phase2" style="display: none;">
+            <p id="instruction2">Quels objets commencent par ces lettres ?</p>
+            <p id="letters"></p>
+            <input type="text" id="userInput1" placeholder="Objet pour la première lettre">
+            <input type="text" id="userInput2" placeholder="Objet pour la deuxième lettre">
+            <input type="text" id="userInput3" placeholder="Objet pour la troisième lettre">
+            <button id="submitBtn">Soumettre ✅</button>
+        </div>
+        <p id="feedback"></p>
+        <p id="score">Score : 0 🏆</p>
+        <button id="restartBtn" style="display: none;">Relancer une nouvelle manche 🔄</button>
+        <p><i>Steve O.D Design, Copyright &copy; 2025</i></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
