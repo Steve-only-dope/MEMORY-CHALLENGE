@@ -4,7 +4,7 @@ const objects = [
     "Univers", "Vent", "Wagon", "Xylophone", "Yacht", "Zèbre", "Abricot", "Banane", "Cactus", "Dent",
     "Éléphant", "Feuille", "Glace", "Hérisson", "Ivoire", "Jupe", "Ketchup", "Lampe", "Miroir", "Neige",
     "Olive", "Parapluie", "Quenouille", "Raisin", "Savon", "Télévision", "Ustensile", "Violette", "Whisky",
-    "Xérès", "Yaourt", "Zigzag"
+    "Xérès", "Yaourt", "Haïti", "Zigzag"
 ];
 
 let selectedObjects = [];
